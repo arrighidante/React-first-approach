@@ -35,9 +35,9 @@ describe('Tests on <LoginPage />', () => {
             const btnElement = screen.getByRole('button');
             fireEvent.click(btnElement);
             expect(setUserMock).toHaveBeenCalledWith({ 
-               email: "john@email.com",
+               email: "samuel@jackson.com",
                id: 123,
-               name: "John"
+               name: "Samuel"
             });
     });
 

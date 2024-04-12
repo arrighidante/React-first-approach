@@ -12,7 +12,6 @@ export const CallbackHook = () => {
       [],
     )
     
-
     // const incrementFather = () => {
     //     setCounter( counter + 1 );
     // }
